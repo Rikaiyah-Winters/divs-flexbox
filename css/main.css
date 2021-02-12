@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: thistle;
+  background-color: #006c67;
   height: 100%;
   width: 100%; /*Added*/
 }
@@ -122,20 +122,56 @@ body {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.25em; /*Changed from 1.6em - font was too big.*/
-  background-color: thistle;
+  font-size: 1.15em; /*Changed from 1.6em - font was too big.*/
+  background-color: #006c67;
   height: 300px;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
+  margin: 20px 0;
 }
 .div-2 {
     border-style: none solid;
     border-color: #fff;
-    border-width: 1px;
-    padding: 0 20px;
+    border-width: 1px; /*ems?*/
+    padding: 0 1.75em;
 }
+
+header, footer {
+    background-color: #006c67;
+    height: 80px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+}
+
+header {
+    font-size: 3.15em;
+    padding-bottom: 20px; /*ems?*/
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-style: solid;
+    border-color: #fff;
+    border-width: 2px; /*ems?*/
+}
+
+main {
+    background-color: #006c67;
+    height: 250px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    border-bottom-style: solid;
+    border-color: #fff;
+    border-width: 2px; /*ems?*/
+  }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
